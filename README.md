@@ -33,9 +33,9 @@ Metodologi penelitian ini terdiri dari beberapa tahap:
 3. EDA (Exploratory Data Analysis)
 4. Preprocessing
 5. Model:
-- FFNN (Feedforward Neural Network)
-- DNN (Deep Neural Network)
-- Random Forest
+  - FFNN (Feedforward Neural Network)
+  - DNN (Deep Neural Network)
+  - Random Forest
 6. Perbandingan Prediksi Model
 7. Test Prediksi dengan Model
 
