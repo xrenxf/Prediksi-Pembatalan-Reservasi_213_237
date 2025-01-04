@@ -76,3 +76,6 @@ Berdasarkan analisis di atas, faktor-faktor berikut ini kemungkinan besar mempen
 - Segmen Pasar: Segmen Groups dan Offline TA/TO memiliki tingkat pembatalan yang lebih tinggi.
 - Tipe Customer: Tipe Transient memiliki tingkat pembatalan yang lebih tinggi.
 - Fitur Numerik Lainnya: Fitur-fitur seperti adr dan total_of_special_requests mungkin juga memiliki pengaruh, seperti yang ditunjukkan oleh matriks korelasi dan pemilihan fitur oleh Random Forest.
+
+#
+Link Google Collab : https://colab.research.google.com/drive/1_oAGug9A82M6neYiblueiv10koK6qn2d?usp=sharing
