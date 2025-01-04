@@ -33,13 +33,13 @@ Metodologi penelitian ini terdiri dari beberapa tahap:
 3. EDA (Exploratory Data Analysis)
 4. Preprocessing
 5. Model:
-  - FFNN (Feedforward Neural Network)
-  - DNN (Deep Neural Network)
-  - Random Forest
+    - FFNN (Feedforward Neural Network)
+    - DNN (Deep Neural Network)
+    - Random Forest
 6. Perbandingan Prediksi Model
 7. Test Prediksi dengan Model
 
-## Analisa Prediksi Pembatalan Reservasi Hotel
+## Analisis Prediksi Pembatalan Reservasi Hotel
 ### Instalasi dan Persiapan
 ### Data Preparation
 - Dataset mencakup fitur berikut:
@@ -69,5 +69,10 @@ Model dievaluasi berdasarkan metrik berikut:
 - Mean Squared Error (MSE): Rata-rata kesalahan kuadrat.
 - R-squared: Proporsi variabilitas data yang dijelaskan oleh model.
 
-### Kesimpulan
-Penelitian ini memberikan solusi berbasis data untuk memprediksi pembatalan reservasi. Dengan memahami faktor-faktor utama, model prediktif yang dibangun dapat membantu hotel meningkatkan efisiensi operasional dan strategi bisnis mereka. Hasil menunjukkan bahwa model FFNN memiliki performa terbaik dalam skenario ini.
+## Kesimpulan Hasil Analisis
+Berdasarkan analisis di atas, faktor-faktor berikut ini kemungkinan besar mempengaruhi pembatalan reservasi hotel:
+- Lead Time: Lead time yang lebih lama cenderung memiliki kemungkinan pembatalan yang lebih tinggi.
+- Tipe Deposit: Deposit Non Refund cenderung memiliki tingkat pembatalan yang lebih rendah.
+- Segmen Pasar: Segmen Groups dan Offline TA/TO memiliki tingkat pembatalan yang lebih tinggi.
+- Tipe Customer: Tipe Transient memiliki tingkat pembatalan yang lebih tinggi.
+- Fitur Numerik Lainnya: Fitur-fitur seperti adr dan total_of_special_requests mungkin juga memiliki pengaruh, seperti yang ditunjukkan oleh matriks korelasi dan pemilihan fitur oleh Random Forest.
